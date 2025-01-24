@@ -1,5 +1,4 @@
 "use client";
-import Link from "next/link";
 import React from "react";
 import Card from "../_components/Card";
 
@@ -8,13 +7,13 @@ export default function Home() {
     <div className="p-10 flex justify-around">
       <Card
         title={"Add Student"}
-        desc={"test test test test test test"}
+        desc={"Click here to Add a student data in the database"}
         img={"Stundent"}
         link={"new-student"}
       />
       <Card
         title={"All Students"}
-        desc={"test test test test test test"}
+        desc={"Click here to Display and download all the students data"}
         img={"All_student"}
         link={"all-students"}
       />
