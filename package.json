@@ -9,9 +9,13 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "@clerk/nextjs": "^6.10.2",
+    "daisyui": "^4.12.23",
+    "exceljs": "^4.4.0",
+    "firebase": "^11.2.0",
+    "next": "15.1.6",
     "react": "^19.0.0",
-    "react-dom": "^19.0.0",
-    "next": "15.1.6"
+    "react-dom": "^19.0.0"
   },
   "devDependencies": {
     "postcss": "^8",
