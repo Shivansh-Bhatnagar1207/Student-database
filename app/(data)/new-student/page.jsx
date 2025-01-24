@@ -13,11 +13,11 @@ export default async function page() {
       <div className="text-center text-4xl font-bold m-4">
         Enter Student Details
       </div>
-      <form className="grid grid-cols-2 gap-4 p-4" action={New_Student}>
+      <form className="grid md:grid-cols-2  gap-4 p-4" action={New_Student}>
         {/* Class */}
         <div>
           <input type="text" name="User" hidden defaultValue={user.username} />
-          <label className="block text-gray-700" name="Class">
+          <label className="block " name="Class">
             Class
           </label>
           <select
@@ -36,7 +36,7 @@ export default async function page() {
 
         {/* SR No */}
         <div>
-          <label className="block text-gray-700">SR No.</label>
+          <label className="block">SR No.</label>
           <input
             type="text"
             className="w-full mt-1 p-2 border rounded"
@@ -48,7 +48,7 @@ export default async function page() {
 
         {/* Student Name */}
         <div>
-          <label className="block text-gray-700">Student Name</label>
+          <label className="block">Student Name</label>
           <input
             type="text"
             className="w-full mt-1 p-2 border rounded"
@@ -60,7 +60,7 @@ export default async function page() {
 
         {/* Gender */}
         <div>
-          <label className="block text-gray-700">Gender</label>
+          <label className="block">Gender</label>
           <select
             className="w-full mt-1 p-2 border rounded"
             name="gender"
@@ -75,7 +75,7 @@ export default async function page() {
 
         {/* DOB */}
         <div>
-          <label className="block text-gray-700">Date of Birth</label>
+          <label className="block">Date of Birth</label>
           <input
             type="date"
             className="w-full mt-1 p-2 border rounded"
@@ -86,7 +86,7 @@ export default async function page() {
 
         {/* DOA */}
         <div>
-          <label className="block text-gray-700">Date of Admission</label>
+          <label className="block">Date of Admission</label>
           <input
             type="date"
             className="w-full mt-1 p-2 border rounded"
@@ -97,7 +97,7 @@ export default async function page() {
 
         {/* Aadhaar No */}
         <div>
-          <label className="block text-gray-700">Student Aadhaar No.</label>
+          <label className="block">Student Aadhaar No.</label>
           <input
             type="text"
             className="w-full mt-1 p-2 border rounded"
@@ -108,7 +108,7 @@ export default async function page() {
         </div>
 
         <div>
-          <label className="block text-gray-700">Addess</label>
+          <label className="block">Addess</label>
           <input
             type="text"
             className="w-full mt-1 p-2 border rounded"
@@ -119,7 +119,7 @@ export default async function page() {
         </div>
         {/* Father's Name */}
         <div>
-          <label className="block text-gray-700">Father&apos;s Name</label>
+          <label className="block">Father&apos;s Name</label>
           <input
             type="text"
             className="w-full mt-1 p-2 border rounded"
@@ -128,7 +128,7 @@ export default async function page() {
           />
         </div>
         <div>
-          <label className="block text-gray-700">Father&apos;s Adhaar</label>
+          <label className="block">Father&apos;s Adhaar</label>
           <input
             type="text"
             className="w-full mt-1 p-2 border rounded"
@@ -139,7 +139,7 @@ export default async function page() {
 
         {/* Mother's Name */}
         <div>
-          <label className="block text-gray-700">Mother&apos;s Name</label>
+          <label className="block">Mother&apos;s Name</label>
           <input
             type="text"
             className="w-full mt-1 p-2 border rounded"
@@ -148,7 +148,7 @@ export default async function page() {
           />
         </div>
         <div>
-          <label className="block text-gray-700">Mother&apos;s Adhaar</label>
+          <label className="block">Mother&apos;s Adhaar</label>
           <input
             type="text"
             className="w-full mt-1 p-2 border rounded"
@@ -157,7 +157,7 @@ export default async function page() {
           />
         </div>
         <div>
-          <label className="block text-gray-700">Care of </label>
+          <label className="block">Care of </label>
           <input
             type="text"
             className="w-full mt-1 p-2 border rounded"
@@ -169,7 +169,7 @@ export default async function page() {
 
         {/* Mobile */}
         <div>
-          <label className="block text-gray-700">Mobile</label>
+          <label className="block">Mobile</label>
           <input
             type="text"
             className="w-full mt-1 p-2 border rounded"
@@ -181,7 +181,7 @@ export default async function page() {
 
         {/* Email */}
         <div>
-          <label className="block text-gray-700">Email</label>
+          <label className="block">Email</label>
           <input
             type="email"
             className="w-full mt-1 p-2 border rounded"
@@ -190,7 +190,7 @@ export default async function page() {
           />
         </div>
         <div>
-          <label className="block text-gray-700">Height</label>
+          <label className="block">Height</label>
           <input
             type="text"
             className="w-full mt-1 p-2 border rounded"
@@ -199,7 +199,7 @@ export default async function page() {
           />
         </div>
         <div>
-          <label className="block text-gray-700">Weight</label>
+          <label className="block">Weight</label>
           <input
             type="text"
             className="w-full mt-1 p-2 border rounded"
@@ -210,7 +210,7 @@ export default async function page() {
 
         {/* Category */}
         <div>
-          <label className="block text-gray-700">Category</label>
+          <label className="block">Category</label>
           <select
             className="w-full mt-1 p-2 border rounded"
             name="Category"
