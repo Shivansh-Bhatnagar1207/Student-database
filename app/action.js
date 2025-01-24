@@ -18,6 +18,8 @@ export async function New_Student(formdata) {
             Father_Adhaar: formdata.get('Father_Adhaar'),
             Mother_Name: formdata.get('Mother_Name'),
             Mother_Adhaar: formdata.get('Mother_Adhaar'),
+            Guardian_Name: formdata.get('Guardian_Name'),
+            Guardian_Adhaar: formdata.get('Guardian_Adhaar'),
             Care_Of: formdata.get('Care_Of'),
             Mobile: formdata.get('Mobile'),
             Email: formdata.get('Email'),

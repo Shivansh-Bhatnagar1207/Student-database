@@ -157,6 +157,24 @@ export default async function page() {
           />
         </div>
         <div>
+          <label className="block">Guardian&apos;s Name</label>
+          <input
+            type="text"
+            className="w-full mt-1 p-2 border rounded"
+            placeholder="Enter Mother's Name"
+            name="Guardian_Name"
+          />
+        </div>
+        <div>
+          <label className="block">Guardian&apos;s Adhaar</label>
+          <input
+            type="text"
+            className="w-full mt-1 p-2 border rounded"
+            placeholder="Enter Mother's Name"
+            name="Guardian_Adhaar"
+          />
+        </div>
+        <div>
           <label className="block">Care of </label>
           <input
             type="text"

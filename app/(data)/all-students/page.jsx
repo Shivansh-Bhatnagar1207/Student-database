@@ -60,6 +60,9 @@ export default async function page() {
                   <th className="border border-gray-300 px-4 py-2">
                     Guardian&apos;s Name
                   </th>
+                  <th className="border border-gray-300 px-4 py-2">
+                    Guardian&apos;s Adhaar
+                  </th>
                   <th className="border border-gray-300 px-4 py-2">C/O</th>
                   <th className="border border-gray-300 px-4 py-2">Category</th>
                   <th className="border border-gray-300 px-4 py-2">Address</th>
@@ -108,6 +111,9 @@ export default async function page() {
                       {student.Guardian_Name || "N/A"}
                     </td>
                     <td className="border border-gray-300 px-4 py-2">
+                      {student.Guardian_Adhaar || "N/A"}
+                    </td>
+                    <td className="border border-gray-300 px-4 py-2">
                       {student.Care_Of || "N/A"}
                     </td>
                     <td className="border border-gray-300 px-4 py-2">
@@ -129,7 +135,7 @@ export default async function page() {
                       {student.DOB}
                     </td>
                     <td className="border border-gray-300 px-4 py-2">
-                      {student.height}
+                      {student.Height}
                     </td>
                     <td className="border border-gray-300 px-4 py-2">
                       {student.Weight}
